@@ -1,0 +1,80 @@
+/* ===== Global ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+/* ===== Container ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ===== Inputs ===== */
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ===== Buttons ===== */
+button {
+    padding: 8px 14px;
+    background-color: #2d89ef;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5fa7;
+}
+
+/* ===== Lists ===== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ===== Dashboard Cards ===== */
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background: #f9fafb;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+/* ===== Links ===== */
+a {
+    text-decoration: none;
+    color: #2d89ef;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Utility ===== */
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>Dashboard</h2>
+
+        <div>
+            <strong>Total Leads:</strong>
+            <span id="totalLeads">0</span>
+        </div>
+
+        <div>
+            <strong>Conversion Rate:</strong>
+            <span id="conversionRate">0%</span>
+        </div>
+
+        <h3>Leads Per Staff</h3>
+        <ul id="leadsPerStaff"></ul>
+
+        <h3>Recent Activities</h3>
+        <ul id="activityList"></ul>
+
+        <br>
+        <a href="leads.html">Go to Leads</a>
+        <br><br>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>

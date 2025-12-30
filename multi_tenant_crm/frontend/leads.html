@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leads</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>Leads</h2>
+
+        <button id="createBtn">Create Lead</button>
+        <br><br>
+
+        <form id="leadForm">
+            <input id="full_name" placeholder="Full Name">
+            <input id="email" placeholder="Email">
+            <button type="submit" onclick="createLead()">Save</button>
+        </form>
+
+        <hr>
+
+        <button onclick="prev()">Prev</button>
+        <button onclick="next()">Next</button>
+
+        <ul id="leads"></ul>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/leads.js"></script>
+
+</body>
+
+</html>
